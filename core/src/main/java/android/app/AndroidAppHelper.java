@@ -20,12 +20,12 @@
 
 package android.app;
 
-import static de.robv.android.xposed.XposedHelpers.findClass;
-import static de.robv.android.xposed.XposedHelpers.findFieldIfExists;
-import static de.robv.android.xposed.XposedHelpers.findMethodExactIfExists;
-import static de.robv.android.xposed.XposedHelpers.getObjectField;
-import static de.robv.android.xposed.XposedHelpers.newInstance;
-import static de.robv.android.xposed.XposedHelpers.setFloatField;
+import static com.xped.isi.XposedHelpers.findClass;
+import static com.xped.isi.XposedHelpers.findFieldIfExists;
+import static com.xped.isi.XposedHelpers.findMethodExactIfExists;
+import static com.xped.isi.XposedHelpers.getObjectField;
+import static com.xped.isi.XposedHelpers.newInstance;
+import static com.xped.isi.XposedHelpers.setFloatField;
 
 import android.content.SharedPreferences;
 import android.content.pm.ApplicationInfo;
@@ -37,8 +37,8 @@ import android.view.Display;
 import java.lang.ref.WeakReference;
 import java.util.Map;
 
-import de.robv.android.xposed.XSharedPreferences;
-import de.robv.android.xposed.XposedBridge;
+import com.xped.isi.XSharedPreferences;
+import com.xped.isi.XposedBridge;
 
 /**
  * Contains various methods for information about the current app.

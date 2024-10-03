@@ -42,8 +42,8 @@ import org.lsposed.lspd.util.Utils;
 import java.util.List;
 
 import dalvik.system.DexFile;
-import de.robv.android.xposed.XposedBridge;
-import de.robv.android.xposed.XposedInit;
+import com.xped.isi.XposedBridge;
+import com.xped.isi.XposedInit;
 
 public class Startup {
     private static void startBootstrapHook(boolean isSystem) {

@@ -18,7 +18,7 @@
  * Copyright (C) 2021 LSPosed Contributors
  */
 
-package de.robv.android.xposed.callbacks;
+package com.xped.isi.callbacks;
 
 import android.content.pm.ApplicationInfo;
 import android.os.Bundle;
@@ -28,8 +28,8 @@ import androidx.annotation.Nullable;
 
 import java.util.concurrent.CopyOnWriteArraySet;
 
-import de.robv.android.xposed.IXposedHookLoadPackage;
-import de.robv.android.xposed.XposedBridge.CopyOnWriteSortedSet;
+import com.xped.isi.IXposedHookLoadPackage;
+import com.xped.isi.XposedBridge.CopyOnWriteSortedSet;
 import io.github.libxposed.api.XposedModuleInterface;
 
 /**

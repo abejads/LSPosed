@@ -18,7 +18,7 @@
  * Copyright (C) 2021 LSPosed Contributors
  */
 
-package de.robv.android.xposed.services;
+package com.xped.isi.services;
 
 import java.io.BufferedInputStream;
 import java.io.File;

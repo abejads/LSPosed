@@ -18,16 +18,16 @@
  * Copyright (C) 2021 LSPosed Contributors
  */
 
-package de.robv.android.xposed;
+package com.xped.isi;
 
 import static org.lsposed.lspd.core.ApplicationServiceClient.serviceClient;
 import static org.lsposed.lspd.deopt.PrebuiltMethodsDeopter.deoptResourceMethods;
-import static de.robv.android.xposed.XposedBridge.hookAllMethods;
-import static de.robv.android.xposed.XposedHelpers.callMethod;
-import static de.robv.android.xposed.XposedHelpers.findAndHookMethod;
-import static de.robv.android.xposed.XposedHelpers.getObjectField;
-import static de.robv.android.xposed.XposedHelpers.getParameterIndexByType;
-import static de.robv.android.xposed.XposedHelpers.setStaticObjectField;
+import static com.xped.isi.XposedBridge.hookAllMethods;
+import static com.xped.isi.XposedHelpers.callMethod;
+import static com.xped.isi.XposedHelpers.findAndHookMethod;
+import static com.xped.isi.XposedHelpers.getObjectField;
+import static com.xped.isi.XposedHelpers.getParameterIndexByType;
+import static com.xped.isi.XposedHelpers.setStaticObjectField;
 
 import android.app.ActivityThread;
 import android.content.pm.ApplicationInfo;
@@ -58,8 +58,8 @@ import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import de.robv.android.xposed.callbacks.XC_InitPackageResources;
-import de.robv.android.xposed.callbacks.XCallback;
+import com.xped.isi.callbacks.XC_InitPackageResources;
+import com.xped.isi.callbacks.XCallback;
 import hidden.HiddenApiBridge;
 
 public final class XposedInit {

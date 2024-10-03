@@ -43,12 +43,12 @@ import java.util.Optional;
 import java.util.Set;
 import java.util.concurrent.ConcurrentHashMap;
 
-import de.robv.android.xposed.XC_MethodHook;
-import de.robv.android.xposed.XC_MethodReplacement;
-import de.robv.android.xposed.XposedBridge;
-import de.robv.android.xposed.XposedHelpers;
-import de.robv.android.xposed.XposedInit;
-import de.robv.android.xposed.callbacks.XC_LoadPackage;
+import com.xped.isi.XC_MethodHook;
+import com.xped.isi.XC_MethodReplacement;
+import com.xped.isi.XposedBridge;
+import com.xped.isi.XposedHelpers;
+import com.xped.isi.XposedInit;
+import com.xped.isi.callbacks.XC_LoadPackage;
 import io.github.libxposed.api.XposedInterface;
 import io.github.libxposed.api.XposedModuleInterface;
 import io.github.libxposed.api.annotations.AfterInvocation;
